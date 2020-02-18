@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jedi Remote</title>
+    
+    <meta name="apple-mobile-web-app-title" content="Jedi Remote">
+    <!--meta name="viewport" content="width=device-width" /-->
+    <meta name="viewport" content="width=200, inital-scale=2" />
+    
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/default-ios.css">
+    <link rel="stylesheet" href="styles/default-print.css" media="print">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+        integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
+        crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="scripts/default.js"></script>
+
+</head>
+<body>
+    <div class="remote">
+        <div class="row caption">Jedi Remote</div>
+        <div class="row top">
+            <span>
+                <button id="button-up">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </span>
+        </div>
+        <div class="row middle">
+            <div class="group">
+                <span>
+                    <button id="button-pre">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                </span>
+                <span>
+                    <button id="button-pp">
+                        <i class="fas fa-play"></i>
+                        /
+                        <i class="fas fa-pause"></i>
+                    </button>
+                </span>
+                <span>
+                    <button id="button-next">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="row bottom">
+            <span>
+                <button id="button-down">
+                    <i class="fas fa-volume-down"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
